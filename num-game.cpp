@@ -30,7 +30,7 @@ int runGame()
 		if(guess>goal && guess<101){
 			cout << "\nNope, that's too high.  Guess again. \n";
 			chance = chance -1;
-			cout << "You have " << chance << "chances left... \n";
+			cout << "You have " << chance << " chances left... \n";
 		}
 		if(guess<goal && guess>=-1){
 			cout << "\nNope, that's too low.  Guess again. \n";
